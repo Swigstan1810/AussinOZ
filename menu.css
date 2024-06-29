@@ -1,0 +1,162 @@
+/* General reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../AussinOZ/images/bg2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.navigation-container {
+    width: 100%;
+    height: 60px;
+    background-color: #ea272d;
+    box-shadow: 2.5px 2.5px 12px rgba(0, 0, 0, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+}
+
+.navigation-content {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 12%;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin: 0 10px;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cart img {
+    height: 30px;
+    margin-right: 5px;
+}
+
+.menu-content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.category-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.category-button {
+    position: relative;
+    width: 480px;
+    height: 200px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.category-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.category-button span {
+    z-index: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    margin: 0 10px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.social ul li {
+    margin: 0 10px;
+}
+
+.social ul li img {
+    height: 30px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
