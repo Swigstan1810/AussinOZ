@@ -4,13 +4,16 @@
     <meta charset="utf-8">
     <title>Pizza Site</title>
     <link rel="stylesheet" href="css.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="navigation-container">
         <div class="navigation-content">
             <!-- Logo -->
             <div class="logo">
-                <img src="../AussinOZ/images/logo.jpg" alt="Logo">
+                <a href="index.html">
+                    <img src="../AussinOZ/images/logo.jpg" alt="Logo">
+                </a>
             </div>
             <!-- Menu -->
             <div class="menu">
@@ -23,7 +26,7 @@
             <!-- Cart -->
             <div class="cart">
                 <img src="../AussinOZ/images/cart.png" alt="Cart">
-                <a href="#">Cart</a>
+                <a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a>
             </div>
         </div>
     </div>
@@ -40,7 +43,7 @@
                 <div class="new">
                     <p>Specials</p>
                     <p>Hot Margerita</p>
-                    <button>View All</button>
+                    <button class="add-to-cart" data-item="Hot Margerita" data-price="12.99">Add to Cart</button>
                 </div>
                 <div class="tools">
                     <div class="search">
@@ -62,27 +65,27 @@
                         <p>VEGGIE</p>
                         <p>SPECIAL</p>
                     </div>
-                <div class="price">
-                    <button>$9<sup>99</sup></button>
-                </div>
+                    <div class="price">
+                        <button class="add-to-cart" data-item="Veggie Special 1" data-price="9.99">$9<sup>99</sup></button>
+                    </div>
                 </div>
                 <div class="food-2">
                     <div class="name">
                         <p>VEGGIE</p>
                         <p>SPECIAL</p>
                     </div>
-                <div class="price">
-                    <button>$9<sup>99</sup></button>
-                </div>
+                    <div class="price">
+                        <button class="add-to-cart" data-item="Veggie Special 2" data-price="9.99">$9<sup>99</sup></button>
+                    </div>
                 </div>
                 <div class="food-3">
                     <div class="name">
                         <p>VEGGIE</p>
                         <p>SPECIAL</p>
                     </div>
-                <div class="price">
-                    <button>$9<sup>99</sup></button>
-                </div>
+                    <div class="price">
+                        <button class="add-to-cart" data-item="Veggie Special 3" data-price="9.99">$9<sup>99</sup></button>
+                    </div>
                 </div>
             </div>
             <!-- Row 3 -->
@@ -95,16 +98,18 @@
                     <p>BREAKFAST MENU</p>
                     <p>SPRING ROLL</p>
                 </div>
-
             </div>
         </div>
     </div>
-    <!-----footer---->
+ 
+    <!-- Footer -->
     <div class="footer">
         <div class="navigation-content">
             <!-- Logo -->
             <div class="logo">
-                <img src="../AussinOZ/images/logo.jpg" alt="Logo">
+                <a href="index.html">
+                    <img src="../AussinOZ/images/logo.jpg" alt="Logo">
+                </a>
             </div>
             <!-- Menu -->
             <div class="menu footer-menu">
@@ -117,9 +122,9 @@
             <!-- Cart -->
             <div class="social">
                 <ul>
-                    <li><a href="#"><img src="../AussinOZ/images/facebook.png"></a> </li>
-                    <li><a href="#"><img src="../AussinOZ/images/twitter.png"></a> </li>
-                    <li><a href="#"><img src="../AussinOZ/images/logo.png"></a> </li>
+                    <li><a href="#"><img src="../AussinOZ/images/facebook.png" alt="Facebook"></a> </li>
+                    <li><a href="#"><img src="../AussinOZ/images/twitter.png" alt="Twitter"></a> </li>
+                    <li><a href="#"><img src="../AussinOZ/images/logo.png" alt="Logo"></a> </li>
                 </ul>
             </div>
         </div>
@@ -128,4 +133,4 @@
         </div>
     </div>
 </body>
-</htm
+</html>

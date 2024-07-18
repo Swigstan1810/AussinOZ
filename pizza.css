@@ -1,0 +1,159 @@
+/* General reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../AussinOZ/images/bg2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.pizza-category {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.pizza-category h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.pizza-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.pizza-item h1 {
+    color: white; /* Add this line to make pizza names white */
+}
+
+.pizza-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 15px;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+
+
+.category-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.category-button h1, .category-button p {
+    margin: 0;
+}
+
+.category-button p {
+    font-size: 18px;
+    color: #ff6347;
+}
+
+.order-button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.order-button:hover {
+    background-color: #ff4500;
+}
+
+/* Size options */
+.size-options {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.size-options p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.size-options ul {
+    list-style: none;
+    padding: 0;
+}
+
+.size-options li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-menu ul li {
+    margin: 0 10px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+.social ul li {
+    margin: 0 10px;
+}
+
+.social ul li img {
+    height: 30px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+

@@ -1,0 +1,212 @@
+/* General reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../AussinOZ/images/bg2.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+}
+
+.navigation-container {
+    width: 100%;
+    height: 60px;
+    background-color: #ea272d;
+    box-shadow: 2.5px 2.5px 12px rgba(0, 0, 0, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+}
+
+.navigation-content {
+    width: 100%;
+    max-width: 1200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 12%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.logo img {
+    width: 89px;
+    height: auto;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    list-style-type: none; /* Remove black dots */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.menu ul li {
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    font-family: Calibri;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-left: 3px solid #000;
+    padding-left: 10px; /* Adjust padding-left to create space between text and border */
+    margin-left: 10px; /* Optional: Adjust margin-left for additional space between items */
+    text-decoration: none; /* Remove underline */
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    font-family: Calibri;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.cart img {
+    height: 30px;
+    margin-right: 10px;
+    margin: 0px 10px;
+}
+
+.cart a {
+    color: #FFFFFF; /* This sets the link color to white */
+    text-decoration: none; /* Optional: Removes underline from link */
+}
+
+.cart a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
+#cart-count {
+    color: #FFFFFF; /* This sets the span color to white */
+}
+
+/* cart.css */
+.cart-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.cart-items {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.cart-total {
+    text-align: right;
+}
+
+#cart-total {
+    font-weight: bold;
+    color: #f9a609; /* Adjust color as needed */
+}
+
+#checkout-btn {
+    background-color: #f9a609;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #e59400; /* Darker shade when hovered */
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /* Remove black dots */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.footer-menu ul li {
+    margin: 0 10px;
+}
+
+.footer-menu ul li a {
+    color: white;
+    text-decoration: none; /* Remove underline */
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /* Remove black dots */
+    padding: 0; /* Remove default padding */
+    margin: 20px 0 0 0;
+}
+
+.social ul li {
+    margin: 0 10px;
+}
+
+.social ul li img {
+    height: 30px;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+/* Cart Modal */
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin: 10px 0;
+}
+
+#checkout {
+    background-color: #f9a609;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#checkout:hover {
+    background-color: #d48800;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="header_and_footer.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navigation-container">
+        <div class="navigation-content">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../AussinOZ/images/logo.jpg" alt="Logo">
+                </a>
+            </div>
+            <!-- Menu -->
+            <div class="menu">
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">Best Deals</a></li>
+                    <li><a href="#">Online Order</a></li>
+                </ul>
+            </div>
+            <!-- Cart -->
+            <div class="cart">
+                <img src="../AussinOZ/images/cart.png" alt="Cart">
+                <a href="cart.html" id="cart-link">Cart (<span id="cart-count">0</span>)</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Content -->
+    <div class="cart-content">
+        <h1>Shopping Cart</h1>
+        <div id="cart-empty" class="cart-empty">
+            <h2>Your cart is currently empty.</h2>
+            <button onclick="window.location.href='menu.html'">Return to shop</button>
+        </div>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0.00</span></p>
+        <button id="checkout" style="display: none;">Checkout</button>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="navigation-content">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="../AussinOZ/images/logo.jpg" alt="Logo">
+            </div>
+            <!-- Menu -->
+            <div class="menu footer-menu">
+                <ul>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="#">Best Deals</a></li>
+                    <li><a href="#">Online Order</a></li>
+                </ul>
+            </div>
+            <!-- Social -->
+            <div class="social">
+                <ul>
+                    <li><a href="#"><img src="../AussinOZ/images/facebook.png" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="../AussinOZ/images/twitter.png" alt="Twitter"></a></li>
+                    <li><a href="#"><img src="../AussinOZ/images/logo.png" alt="Logo"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2024 AussinOZ Pizza</p>
+        </div>
+    </div>
+</body>
+</html>
